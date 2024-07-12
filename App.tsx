@@ -1,8 +1,10 @@
-import { NavigationContainer } from '@react-navigation/native';
+import 'react-native-gesture-handler'
 import React from 'react';
-import { Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { createStackNavigator } from "@react-navigation/stack";
+
+// files
 import HomeScreen from './src/screens/HomeScreen';
 import SendTokensScreen from './src/screens/SendTokensScreen';
 
